@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+ 
 }
 html { 
     background: url(Images/Dragon.jpg) no-repeat center center fixed; 
@@ -8,11 +8,13 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+
   .business h1{
       text-align: center;
       color: #FCF7F4;
       font-size: 75px;
   }
+  
   .logo img{
       display: block;
       margin: 0px auto;
@@ -37,9 +39,11 @@ html {
     width: 100%;
     height: 150px;
     background: #902222;
-    margin-top: -40px;
+    margin-top: -50px;
+    margin-left: -8px;
     position: fixed;
 }
+
 ul{
     list-style-type: none;
     width: 736px;
@@ -49,6 +53,7 @@ ul{
     margin-right: auto;
     margin-left: auto;
     min-height: 10em;
+    top: 25px;
     z-index: 1;
 }
 
@@ -96,6 +101,7 @@ background-attachment: fixed;
 margin-bottom: 0;
 z-index: -1;
 }
+
 .featured{
 height: 115vh;
 width: 100%;
@@ -109,6 +115,7 @@ background-attachment: fixed;
 margin-bottom: 0;
 z-index: -1;
 }
+
 .news{
 height: 115vh;
 width: 100%;
@@ -122,6 +129,7 @@ background-attachment: fixed;
 margin-bottom: 0;
 z-index: -1;
 }
+
 .extra{
 height: 115vh;
 width: 100%;
