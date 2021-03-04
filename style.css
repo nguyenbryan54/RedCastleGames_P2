@@ -89,7 +89,8 @@ a{
 background-color: #FCF7F4;
 height:1000px;
 display:flex;
-padding-top: 15%;
+justify-content: center;
+align-items: center;
 }
 
 .about-us .page2-content{
@@ -104,6 +105,13 @@ height:1000px;
 display: flex;
 }
 
+.page3{
+    color: #FCF7F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .news{
 height:1000px;
@@ -132,14 +140,8 @@ background-color: #902222;
 
 .slick-current {margin: 0;}
 
-
-@media only screen and (max-width: 768px) {
-
-    html { 
-        background: url(Images/Dragon.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
+      @media only screen and (min-width:1024px){
+          .slider{
+              width: 80%;
+          }
       }
