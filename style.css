@@ -360,6 +360,11 @@ li{
     margin-left: -8px;
     position: fixed;
     opacity: .9;
+}.chess{
+    background-image: url(Images/chesspieces-mobile.png);
+    background-size: cover;
+    background-repeat: none;
+    height: 120px;
 }
 
 }
