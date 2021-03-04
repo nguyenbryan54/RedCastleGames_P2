@@ -266,6 +266,7 @@ background-color: #902222;
 @media only screen and (max-width: 768px) {
     *{
         margin:0;
+
     }
     .background-image img{
         position:absolute;
@@ -288,7 +289,7 @@ background-color: #902222;
 
     .page2-content{
         font-size: 2px;
-
+     
     }
    #calender {
        display: none;
