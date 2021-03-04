@@ -1,12 +1,4 @@
-html { 
-    background: url(Images/Dragon.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-  .business h1{
+ .business h1{
       text-align: center;
       color: #FCF7F4;
       font-size: 75px;
@@ -34,7 +26,7 @@ html {
 }
 .rectangle{
     width: 100%;
-    height: 150px;
+    height: 195px;
     background: #902222;
     margin-top: -50px;
     margin-left: -8px;
@@ -262,4 +254,36 @@ background-color: #902222;
 
 .page2-content p{
     font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+      .square{
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        background: cornflowerblue;
+        border-radius: 100px;
+        right: 100px;
+        top:40px; 
+        display: none;
+    
+    }
+
+    .images{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .images img{
+        border: 10px solid #902222;
+        background-color: #FCF7F4;
+        padding: 20px 20px 20px 20px;
+        margin-top: -100px;
+        margin-right: 20px;
+    }
+    .featured{
+    background-color: #902222;
+    height:550px;
+}
 }
