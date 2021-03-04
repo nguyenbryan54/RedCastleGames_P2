@@ -267,19 +267,24 @@ background-color: #902222;
     .background-image img{
         position:absolute;
         height: auto;
-        max-width: 1300px;
+        max-width: 970px;
         margin: 0;
         z-index: -1;
         object-fit: none;
-        object-position: 60% 60%;
+        object-position: 56% 53%;
     }
     .about-us img{
-        align-content: center;
-        width: 600px;
+     
+        width: 670px;
         height: auto;
     }
+
     .page2-content{
         font-size: 2px;
+    }
+    .page2-content h1{
+        
+    }
     }
    #calender {
        display: none;
@@ -314,15 +319,42 @@ ul{
     list-style-type: none;
     width: 400px;
     min-height: 10em;
-    top: 25px;
+    top: -8px;
     z-index: 1;
+    margin-right: -54px;
 }
 
 li{
     width: 120px;
-    height: 40px;
+    height: 60px;
     border-radius: 5px;
     padding-top: 10px;
 }
-
+.square{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background: cornflowerblue;
+    border-radius: 100px;
+    right: 100px;
+    top:40px; 
+    display:none;
+}
+.about-us{
+    background-color: #FCF7F4;
+    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+    }
+    .page2 h4{
+        text-align: center;
+        margin-top:5px;
+        padding-left: 240px;
+        margin-bottom: 330px;
+        color: #902222;
+  }
+  a{
+    width: 100px;
 }
