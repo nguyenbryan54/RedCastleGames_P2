@@ -1,6 +1,3 @@
-*{
- 
-}
 html { 
     background: url(Images/Dragon.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -89,57 +86,60 @@ a{
 
 }
 .about-us{
-height: 115vh;
-width: 100%;
-display: grid;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-top: -1px;
 background-color: #FCF7F4;
-background-attachment: fixed;
-margin-bottom: 0;
-z-index: -1;
+height:1000px;
+display:flex;
+padding-top: 15%;
+}
+
+.about-us .page2-content{
+color: #902222;
+padding-left: 50px;
+padding-right: 50px;
 }
 
 .featured{
-height: 115vh;
-width: 100%;
-display: grid;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-top: -1px;
 background-color: #902222;
-background-attachment: fixed;
-margin-bottom: 0;
-z-index: -1;
+height:1000px;
+display: flex;
 }
 
+
 .news{
-height: 115vh;
-width: 100%;
-display: grid;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-top: -1px;
+height:1000px;
 background-color: #FCF7F4;
-background-attachment: fixed;
-margin-bottom: 0;
-z-index: -1;
 }
 
 .extra{
-height: 115vh;
-width: 100%;
-display: grid;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-top: -1px;
+height:1000px;
 background-color: #902222;
-background-attachment: fixed;
-margin-bottom: 0;
-z-index: -1;
 }
+
+.slider {
+	width: 400px;
+	margin: 0 auto;
+    margin-bottom: -400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.slide-content img {
+    width: 80%;
+    border: 4px solid #902222;
+    }
+
+
+.slick-current {margin: 0;}
+
+
+@media only screen and (max-width: 768px) {
+
+    html { 
+        background: url(Images/Dragon.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+      }
