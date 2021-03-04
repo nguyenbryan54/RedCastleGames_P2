@@ -139,7 +139,7 @@ margin-top: -40px;
 }
 
 .extra{
-height:1000px;
+height:700px;
 background-color: #902222;
 }
 
@@ -184,10 +184,82 @@ background-color: #902222;
     font-family: serif;
     box-shadow: 5px 5px 8px black;
     margin-top: 60px;
+    position: relative;
 }
 .page4 h1{
     color: #FCF7F4;
     text-align: center;
     padding-top:6%;
     font-size: 40px;
+    position: relative;
+}
+#calender{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -75px;
+    width:40%;
+    position: relative;
+}
+
+#wrapper{
+    height: 510px;
+   overflow: auto;
+}
+
+.pattern{
+    position: absolute;
+}
+ 
+.pattern img{
+    width: 2450px;
+    height: 980px;
+    object-fit: cover;
+}
+
+.chesspieces2{
+    background-image: url(Images/Capture.PNG);
+    background-size: cover;
+    background-repeat: none;
+    height: 180px;
+
+}
+.extra2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.page5{
+    padding: 150px 150px 10px;
+    align-content: center;
+    text-align: center;
+}
+
+.page5 h1{
+    color: #FFDB5C;
+}
+
+.page5 h3{
+    color:#FCF7F4;
+    padding-top: 30px;
+}
+
+.extra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+
+.page2 h4{
+    text-align: right;
+    margin-top:5px;
+    color: #902222;
+}
+
+.page2-content p{
+    font-size: 20px;
 }
