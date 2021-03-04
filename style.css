@@ -318,7 +318,7 @@ ul{
     min-height: 10em;
     top: -8px;
     z-index: 1;
-    margin-right: -54px;
+
 }
 
 li{
@@ -327,14 +327,7 @@ li{
     border-radius: 5px;
     padding-top: 10px;
 }
-.square{
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    background: cornflowerblue;
-    border-radius: 100px;
-    right: 100px;
-    top:40px; 
+.square{ 
     display:none;
 }
 .about-us{
