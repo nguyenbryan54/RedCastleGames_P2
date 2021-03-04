@@ -39,6 +39,7 @@ html {
     margin-top: -50px;
     margin-left: -8px;
     position: fixed;
+    opacity: .9;
 }
 
 ul{
@@ -91,6 +92,7 @@ height:1000px;
 display:flex;
 justify-content: center;
 align-items: center;
+margin-bottom: -40px;
 }
 
 .about-us .page2-content{
@@ -101,21 +103,39 @@ padding-right: 50px;
 
 .featured{
 background-color: #902222;
-height:1000px;
-display: flex;
+height:700px;
 }
 
-.page3{
+.block{
+    background-color: #FCF7F4;
+    height:300px;
+}
+.page3 h1{
     color: #FCF7F4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top:6%;
+    font-size: 40px;
 }
 
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.image1{
+    padding: 0 150px 10px;
+}
+.images img{
+    border: 10px solid #902222;
+    background-color: #FCF7F4;
+    padding: 20px 20px 20px 20px;
+    margin-top: -100px;
+}
 .news{
 height:1000px;
-background-color: #FCF7F4;
+background-color: #902222;
+margin-top: -40px;
 }
 
 .extra{
@@ -123,25 +143,51 @@ height:1000px;
 background-color: #902222;
 }
 
-.slider {
-	width: 400px;
-	margin: 0 auto;
-    margin-bottom: -400px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+
+.shop{
+    display: block;
+    margin: 175px auto;
+    width: 200px;
+    padding: 10px;
+    background-color: #3A3A3A;
+    color:#FCF7F4;
+    text-align: center;
+    text-decoration: none;
+    font-family: serif;
+    box-shadow: 5px 5px 8px black;
+    margin-top: 60px;
 }
 
+.chess{
+    background-image: url(Images/chesspieces.png);
+    background-size: cover;
+    background-repeat: none;
+    height: 180px;
+    margin-top: 300px;
+}
 
-.slide-content img {
-    width: 80%;
-    border: 4px solid #902222;
-    }
-
-
-.slick-current {margin: 0;}
-
-      @media only screen and (min-width:1024px){
-          .slider{
-              width: 80%;
-          }
-      }
+.chesspieces{
+    background-image: url(Images/Capture.PNG);
+    background-size: cover;
+    background-repeat: none;
+    height: 180px;
+}
+.more{
+    display: block;
+    margin: 175px auto;
+    width: 200px;
+    padding: 10px;
+    background-color: #3A3A3A;
+    color:#FCF7F4;
+    text-align: center;
+    text-decoration: none;
+    font-family: serif;
+    box-shadow: 5px 5px 8px black;
+    margin-top: 60px;
+}
+.page4 h1{
+    color: #FCF7F4;
+    text-align: center;
+    padding-top:6%;
+    font-size: 40px;
+}
