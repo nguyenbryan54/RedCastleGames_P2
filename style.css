@@ -279,7 +279,7 @@ background-color: #902222;
     }
     .about-us img{
      
-        width: 670px;
+        width: 625px;
         height: auto;
     }
 
@@ -344,9 +344,9 @@ li{
     }
     .page2 h4{
         text-align: center;
-        margin-top:5px;
+        margin-top:10px;
         padding-left: 240px;
-        margin-bottom: 330px;
+        margin-bottom: 365px;
         color: #902222;
   }
   a{
@@ -360,11 +360,21 @@ li{
     margin-left: -8px;
     position: fixed;
     opacity: .9;
-}.chess{
+}
+.chess{
+    display:none;
+}
+.chesspieces{
     background-image: url(Images/chesspieces-mobile.png);
     background-size: cover;
     background-repeat: none;
     height: 120px;
 }
+.chesspieces2{
+        background-image: url(Images/chesspieces-mobile.png);
+        background-size: cover;
+        background-repeat: none;
+        height: 120px;
+    }
 
 }
