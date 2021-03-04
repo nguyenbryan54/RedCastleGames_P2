@@ -376,6 +376,7 @@ li{
     background-size: cover;
     background-repeat: none;
     height: 120px;
+    margin-bottom: 38px;
 }
 .chesspieces2{
         background-image: url(Images/chesspieces-mobile.png);
@@ -383,5 +384,7 @@ li{
         background-repeat: none;
         height: 120px;
     }
-
+.page4 h1{
+    margin-top: 30px;
+}
 }
