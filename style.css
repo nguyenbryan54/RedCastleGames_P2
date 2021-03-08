@@ -77,16 +77,6 @@ a{
     font-family: serif;
     box-shadow: 5px 5px 15px black;
 }
-.square{
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    background: cornflowerblue;
-    border-radius: 100px;
-    right: 100px;
-    top:40px; 
-
-}
 .about{
 background-color: #FCF7F4;
 height:1000px;
@@ -342,9 +332,7 @@ li{
     border-radius: 5px;
     padding-top: 10px;
 }
-.square{ 
-    display:none;
-}
+
 .about-us{
     background-color: #FCF7F4;
     height: 800px;
