@@ -87,22 +87,26 @@ a{
     top:40px; 
 
 }
-.about-us{
+.about{
 background-color: #FCF7F4;
 height:1000px;
 display:flex;
 justify-content: center;
 align-items: center;
 margin-bottom: -40px;
+margin-top: -40px;
+}
+about-us{
+    display: none;
 }
 
-.about-us .page2-content{
+.about .page2-content{
 color: #902222;
 padding-left: 50px;
 padding-right: 50px;
 }
 
-.featured{
+.feature{
 background-color: #902222;
 height:700px;
 width: 100%;
@@ -165,7 +169,7 @@ background-color: #902222;
     background-size: cover;
     background-repeat: none;
     height: 180px;
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 .chesspieces{
