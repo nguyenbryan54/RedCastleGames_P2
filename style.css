@@ -1,4 +1,4 @@
- .background-image img{
+.background-image img{
      position:absolute;
      height: auto;
      max-width: 2465px;
@@ -254,6 +254,10 @@ background-color: #902222;
 
 .page2-content p{
     font-size: 20px;
+}
+a:hover{
+    background-color:#FCF7F4;
+    color:black;
 }
 
 @media only screen and (max-width: 768px) {
