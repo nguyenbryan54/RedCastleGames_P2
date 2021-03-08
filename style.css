@@ -268,7 +268,7 @@ a:hover{
     .background-image img{
         position:absolute;
         height: auto;
-        max-width: 1010px;
+        max-width: 975px;
         margin: 0;
         z-index: -1;
         object-fit: none;
@@ -278,15 +278,19 @@ a:hover{
           margin: 0px 0px 0px -598px;
 
     }
-    .about-us img{
+    .about img{
      
-        width: 565px;
+        width: 585px;
         height: auto;
     }
 
     .page2-content{
         font-size: 2px;
      
+    }
+    .page2-content p{
+        font-size: 10px;
+        left: 1000px;
     }
    #calender {
        display: none;
@@ -302,7 +306,7 @@ a:hover{
         height: 300px;
         object-fit: cover;
     }
-    .featured{
+    .feature{
         background-color: #902222;
         height:570px;
         width: 100%;
@@ -327,6 +331,7 @@ ul{
     z-index: 1;
     margin-right: 25px;
     position:absolute;
+
 }
 
 li{
@@ -336,10 +341,10 @@ li{
     padding-top: 10px;
 }
 
-.about-us{
+.about{
     background-color: #FCF7F4;
     height: 800px;
-    width: 500px;
+    width: 375px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -348,21 +353,22 @@ li{
     .page2 h4{
         text-align: center;
         margin-top:10px;
-        padding-left: 150px;
-        margin-bottom: 395px;
+        padding-left: 200px;
+        margin-bottom: 435px;
         color: #902222;
   }
   a{
     width: 100px;
 }
 .rectangle{
-    width: 425px;
+    width: 385px;
     height: 150px;
     background: #902222;
     margin-top: -50px;
     margin-left: -8px;
     opacity: .9;
-    position:unset;
+    position: unset;
+    
 }
 .chess{
     display:none;
