@@ -9,8 +9,9 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
-  height: 400px;
-  margin-top: 175px;
+  height: 1200px;
+  position:absolute;
+  z-index: -1;
 }
 .business h1 {
   text-align: center;
@@ -193,7 +194,7 @@ about-us {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -75px;
+  margin-top: -25px;
   width: 40%;
   position: relative;
 }
@@ -216,6 +217,7 @@ about-us {
   background-image: url(Images/Capture.PNG);
   background-size: cover;
   background-repeat: none;
+  height: 150px;
 }
 .extra2 {
   display: flex;
