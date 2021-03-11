@@ -1,7 +1,7 @@
 .background-image img{
      position:absolute;
      height: auto;
-     max-width: 2465px;
+     width: 100%;
      margin: 0;
      z-index: -1;
      object-fit: none;
@@ -35,7 +35,6 @@
 }
 .rectangle{
     width: 100%;
-    height: 195px;
     background: #902222;
     margin-top: -50px;
     margin-left: -8px;
@@ -58,7 +57,6 @@ ul{
 
 li{
     width: 120px;
-    height: 40px;
     margin: 0px 30px;
     border-radius: 5px;
     float: left;
@@ -68,7 +66,6 @@ li{
 a{
     display: block;
     width: 120px;
-    height: 40px;
     line-height: 40px;
     text-decoration: none;
     text-align: center;
@@ -79,7 +76,6 @@ a{
 }
 .about{
 background-color: #FCF7F4;
-height:1000px;
 display:flex;
 justify-content: center;
 align-items: center;
@@ -97,13 +93,11 @@ padding-right: 50px;
 
 .feature{
 background-color: #902222;
-height:700px;
 width: 100%;
 }
 
 .block{
     background-color: #FCF7F4;
-    height:300px;
 }
 .page3 h1{
     color: #FCF7F4;
@@ -128,13 +122,13 @@ width: 100%;
     margin-top: -100px;
 }
 .news{
-height:1000px;
 background-color: #902222;
 margin-top: -40px;
+width: 100%;
 }
 
 .extra{
-height:750px;
+width: 100%;
 background-color: #902222;
 }
 
@@ -157,15 +151,15 @@ background-color: #902222;
     background-image: url(Images/chesspieces.png);
     background-size: cover;
     background-repeat: none;
-    height: 180px;
     margin-top: 350px;
+    height: 150px;
 }
 
 .chesspieces{
     background-image: url(Images/Capture.PNG);
     background-size: cover;
     background-repeat: none;
-    height: 180px;
+    height: 150px;
 }
 .more{
     display: block;
@@ -198,7 +192,6 @@ background-color: #902222;
 }
 
 #wrapper{
-    height: 510px;
    overflow: auto;
 }
 
@@ -208,7 +201,6 @@ background-color: #902222;
  
 .pattern img{
     width: 2450px;
-    height: 980px;
     object-fit: cover;
 }
 
@@ -216,7 +208,6 @@ background-color: #902222;
     background-image: url(Images/Capture.PNG);
     background-size: cover;
     background-repeat: none;
-    height: 180px;
 
 }
 .extra2{
@@ -266,22 +257,20 @@ a:hover{
 
     }
     .background-image img{
-        position:absolute;
+    
         height: auto;
-        max-width: 975px;
+        width: 100%;
         margin: 0;
-        z-index: -1;
-        object-fit: none;
-        object-position: 35% 53%;
+
     }
     .background-image img{
-          margin: 0px 0px 0px -598px;
+          margin: 0px 0px 0px 0px;
 
     }
     .about img{
-     
         width: 585px;
         height: auto;
+        margin-bottom: 100px;
     }
 
     .page2-content{
@@ -289,26 +278,24 @@ a:hover{
      
     }
     .page2-content p{
-        font-size: 10px;
-        left: 1000px;
+        font-size: 18px;
+        width: 100%;
     }
    #calender {
        display: none;
    }
    .news{
-    height:300px;
+    width: 100%;
     background-color: #902222;
     margin-top: -40px;
     padding-top: 10px;
     }
     .pattern img{
         width: 360px;
-        height: 300px;
         object-fit: cover;
     }
     .feature{
         background-color: #902222;
-        height:570px;
         width: 100%;
         }
         .images img{
@@ -326,7 +313,6 @@ a:hover{
 ul{
     list-style-type: none;
     width: 400px;
-    min-height: 10em;
     top:15px;
     z-index: 1;
     margin-right: 14px;
@@ -336,33 +322,30 @@ ul{
 
 li{
     width: 40px;
-    height: 60px;
     border-radius: 5px;
     padding-top: 10px;
 }
 
 .about{
     background-color: #FCF7F4;
-    height: 800px;
-    width: 375px;
+    width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -40px;
+    flex-direction: column;
     }
     .page2 h4{
         text-align: center;
-        margin-top:10px;
-        padding-left: 200px;
-        margin-bottom: 435px;
         color: #902222;
+        margin-top: -100px;
+        margin-bottom: 20px;
+
   }
   a{
     width: 100px;
 }
 .rectangle{
-    width: 385px;
-    height: 150px;
+    width: 100%;
     background: #902222;
     margin-top: -50px;
     margin-left: -8px;
@@ -377,22 +360,33 @@ li{
     background-image: url(Images/chesspieces-mobile.png);
     background-size: cover;
     background-repeat: none;
-    height: 120px;
     margin-bottom: 38px;
 }
 .chesspieces2{
         background-image: url(Images/chesspieces-mobile.png);
         background-size: cover;
         background-repeat: none;
-        height: 120px;
     }
 .page4 h1{
     margin-top: 30px;
 }
 .extra{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-padding-left: 760px;
+}
+.pattern img{
+    width: 100%;
+}
+.images{
+    flex-direction: column;
+}.page5{
+    padding: 20px 20px 10px;
+    align-content: center;
+    text-align: center;
+}
+.extra2{
+    display:flex;
+    flex-direction: column;
 }
 }
