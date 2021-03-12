@@ -43,7 +43,6 @@ nav {
   background: #902222;
   position: fixed;
   top: 0;
-  opacity: 0.9;
   height: 175px;
 }
 
@@ -171,7 +170,7 @@ about-us {
 }
 .more {
   display: block;
-  margin: 175px auto;
+  margin: 75px auto;
   width: 200px;
   padding: 10px;
   background-color: #3a3a3a;
@@ -197,6 +196,8 @@ about-us {
   margin-top: -25px;
   width: 40%;
   position: relative;
+  padding-top: -100px;
+  margin-bottom: 20px;
 }
 
 #wrapper {
@@ -243,6 +244,7 @@ about-us {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-right: 300px;
 }
 .page2 {
   display: flex;
@@ -285,10 +287,6 @@ a:hover {
     margin-bottom: 100px;
     margin-top: -240px;
   }
-
-  .page2-content {
-    font-size: 2px;
-  }
   .page2-content p {
     font-size: 18px;
     width: 100%;
@@ -322,6 +320,12 @@ a:hover {
     text-align: center;
     margin-top: 20px;
     margin-right: 20px;
+  }
+  .image1{
+    padding-top: 150px;
+  }
+  .shop{
+    margin-bottom: 25px;
   }
   ul {
     list-style-type: none;
@@ -358,8 +362,7 @@ a:hover {
   nav {
     width: 100%;
     background: #902222;
-    opacity: 0.9;
-    position: unset;
+    height: 120px;
   }
   .chess {
     display: none;
